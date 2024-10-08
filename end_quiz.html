@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>congrats</title>
-    <link rel="stylesheet" href="web.css">
-</head>
-<body>
+    <link rel="stylesheet" href="web.css" />
+  </head>
+  <body>
     <div class="container">
-        <div id="end" class="flex-center flex-coulmn">
-            <h1 id="finalScore"></h1>
-            <form>
-                <input type="text" name="username" id="username" placeholder="User name">
-                <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)" disabled>Save</button>
-                <a class="btn" href="quiz.html">Play Again</a>
-                <a class="btn" href="home.html">Go Home</a>
-            </form>
-            
-        </div>
+      <div id="end" class="flex-center flex-coulmn">
+        <h1 id="finalScore"></h1>
+        <form>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="User name"
+          />
+          <button
+            type="submit"
+            class="btn"
+            id="saveScoreBtn"
+            onclick="saveHighScore(event)"
+            disabled
+          >
+            Save
+          </button>
+          <a class="btn" href="quiz.html">Play Again</a>
+          <a class="btn" href="index.html">Go Home</a>
+        </form>
+      </div>
     </div>
     <script src="end_quiz.js"></script>
-</body>
+  </body>
 </html>
